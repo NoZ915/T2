@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+    outline: 1px solid yellowgreen;
+}
+html{
+    min-width: 980px;
+}
+/* -----header----- */
+header{
+    background-color: #535151;
+}
+.header__container{
+    margin: 0 auto;
+    width: 980px;
+    text-align-last: justify;
+}
+.header__container a{
+    display: inline-block;
+    padding: 20px 10px;
+}
+h1{
+    display: inline-block;
+    vertical-align: middle;
+
+    color: #C1C0C0;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+}
+nav{
+    display: inline-block;
+    vertical-align: middle;
+
+    font-size: 0;
+}
+nav a{
+    margin: 20px 0;
+    text-decoration: none;
+
+    color: #C1C0C0;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+nav a+a{
+    margin-left: 30px;
+}
+nav a:hover{
+    color: #ffffff;
+}
+.image__content--bag{
+    width: 35px;
+    vertical-align: middle;
+
+    font-size: 0;
+}
+.image__content--bag img{
+    width: 100%;
+    height: 100%;
+}
+
+/* -----section--banner----- */
+.section__content--banner{
+    margin-bottom: 80px;
+    position: relative;
+    text-align: center;
+
+    font-size: 0;
+}
+.image__content--cover{
+    height: 550px;
+    width: 100%;
+    background: no-repeat center url("./img/cover.jpg");
+    background-size: cover;
+}
+.banner__content{
+    padding: 30px 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    background-color: #ffffff73;
+}
+.banner__content h2{
+    margin-bottom: 10px;
+    white-space: nowrap;
+
+    color: #38393a;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+button{
+    border: none;
+    padding: 5px 50px;
+    cursor: pointer;
+
+    background-color: #39393b;
+    color: #C1C0C0;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+button:hover{
+    background-color: #C1C0C0;
+    color: #39393b;
+    transition: 0.5s;
+}
+.section__content--banner p{
+    padding: 5px;
+
+    background-color: #f0f0f0;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+}
+
+/* -----section--items----- */
+.section__content--items{
+    margin-bottom: 80px;
+    text-align: center;
+
+    font-size: 0;
+}
+.section__content--items h2{
+    margin-bottom: 20px;
+
+    color: #38393a;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+hr{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 35px;
+}
+.section__content--items h3{
+    margin-bottom: 80px;
+
+    color: #38393a;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+}
+.image__content--items{
+    margin: 0 auto;
+    width: 980px;
+}
+.image__content--items a{
+    display: inline-block;
+    height: 420px;
+}
+.image__content--items img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.image__content--items a+a{
+    margin-left: 10px;
+}
+
+/* -----footer----- */
+footer{
+    background-color: #535151;
+}
+.footer__container{
+    margin: 0 auto;
+    padding: 50px 20px;
+    width: 980px;
+    text-align: center;
+    box-sizing: border-box;
+
+    color: #bfbfbf;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+.about-us{
+    margin-bottom: 50px;
+    text-align-last: justify;
+}
+.about-us section{
+    display: inline-block;
+    text-align-last: left;
+    vertical-align: top;
+}
+.about-us span{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.social-media .section__content{
+    text-align-last: justify;
+}
+.social-media a{
+    display: inline-block;
+}
+
+.social-media i{
+    text-align-last: center;
+
+    color: #bfbfbf;
+    font-size: 17px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+.update-email input{
+    display: block;
+}
+.update-email input[type="text"]{
+    margin-bottom: 5px;
+    border: 1px solid #bfbfbf;
+    padding: 5px 10px;
+    width: 300px;
+
+    background-color: #535151;
+    color: #bfbfbf;
+}
+.update-email input[type="text"]::placeholder{
+    color: #bfbfbf;
+    font-size: 14px;
+}
+.update-email button[type="submit"]{
+    border: 1px solid #bfbfbf;
+    padding: 5px 10px;
+    float: right;
+    cursor: pointer;
+
+    background-color: #bfbfbf;
+    color: #535151;
+    font-size: 14px;
+}
+.update-email button[type="submit"]:hover{
+    border: 1px solid #bfbfbf;
+
+    background-color: #535151;
+    color: #bfbfbf;
+    transition: 0.5s;
+}
+.contact-information a{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    width: fit-content;
+    text-decoration: none;
+
+    color: #bfbfbf;
+    font-weight: 700;
+}
+.copy-right a{
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
